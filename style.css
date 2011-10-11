@@ -1,0 +1,134 @@
+body {
+	background:url(misc/bg_vert.jpg) repeat-x scroll 0 0 transparent;
+	background-color:#999;
+	color:#999;
+	display:block;
+	font:13px/1.3 'Segoe UI',Arial,sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+}
+h2 {
+	text-align: center;
+}
+#top {
+	background:url(misc/top.jpg) repeat-x scroll 0 0 transparent;
+	height:31px;
+}
+#footer {
+	background-color:#212121;
+	bottom:0;
+	height:70px;
+	left:0;
+	position:fixed;
+	width:100%;
+	z-index:100000;
+}
+#footer h2 {
+	color:#EEE;
+	font-size:20px;
+	font-weight:normal;
+	left:50%;
+	margin-left:-400px;
+	padding:22px 0;
+	position:absolute;
+	width:400px;
+}
+#footer a.btu,a.btu:visited {
+	background:url(misc/btu.png) no-repeat scroll right top transparent;
+	border:medium none;
+	color:#FCFCFC;
+	height:70px;
+	left:50%;
+	font-size:12px;
+	line-height:31px;
+	margin:23px 0 0 110px;
+	position:absolute;
+	text-decoration:none;
+	top:0;
+	width:290px;
+}
+a,a:visited {
+	color:#97CAE6;
+	outline:medium none;
+	text-decoration:none;
+}
+.credit {
+	font-size:11px;
+	padding:20px 0 100px;
+	text-align:center;
+}
+
+/* CarouFredSel Container */
+.transparent {
+	margin: 100px auto 0;
+	padding: 0 10px;
+	width: 950px;
+}
+.image_carousel {
+	padding: 15px 40px;
+	position: relative;
+	width: 870px;
+}
+.image_carousel img {
+	border: 1px solid #212121;
+	background-color: white;
+	padding: 9px;
+	margin: 7px;
+	display: block;
+	float: left;
+}
+a.prev, a.next {
+	background: url(misc/miscellaneous_sprite.png) no-repeat transparent;
+	width: 45px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 85px;
+}
+a.prev {
+	left: -5px;
+	background-position: 0 0;
+}
+a.prev:hover {
+	background-position: 0 -50px;
+}
+a.next {
+	right: -5px;
+	background-position: -50px 0;
+}
+a.next:hover {
+	background-position: -50px -50px; 
+}
+
+a.prev span, a.next span {
+	display: none;
+}
+div.pagination {
+	text-align: center;
+}
+div.pagination a {
+	background: url(misc/miscellaneous_sprite.png) no-repeat scroll 0 -300px transparent;
+	display: inline-block;
+	height: 15px;
+	margin: 0 5px 0 0;
+	width: 15px;
+}
+div.pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+div.pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+.timer {
+	background-color: #ccc;
+	height: 2px;
+	width: 0px;
+	margin: 0 8px;
+}
